@@ -6,7 +6,7 @@ const App = () => {
   const [points, setPoints] = useState(27362352)
   const [energy, setEnergy] = useState(3535)
   
-  const [clicks,setClicks] = useState<{id:Number,x:Number,y:Number}[]>([])
+  const [clicks,setClicks] = useState<{id:number,x:number,y:number}[]>([])
   const pointsToAdd = 12
   const energyToReduce = 12
  
